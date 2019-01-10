@@ -82,11 +82,14 @@ if (empty($_POST["comment"])) {
 </form>
 
 <?php
-echo "<h2>Input:</h2>";
-echo $email;
-echo "<br>";
-echo $comment;
-echo "<br>";
+if (empty($_POST["email"]))
+	
+else
+	echo "<h2>Input:</h2>";
+	echo $email;
+	echo "<br>";
+	echo $comment;
+	echo "<br>";
 ?>
 
 
