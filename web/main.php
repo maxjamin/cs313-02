@@ -82,9 +82,7 @@ if (empty($_POST["comment"])) {
 </form>
 
 <?php
-if (empty($_POST["email"]))
-	
-else
+if ("email" != "")
 	echo "<h2>Input:</h2>";
 	echo $email;
 	echo "<br>";
