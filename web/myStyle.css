@@ -9,10 +9,10 @@ h1 {
  font: italic 200% fantasy;
 }
 p {
- color: #333300;
+ background-color: #E2E2E2;
+ color: #333;
  text-align: left;
  font: italic;
- ;
 }
 
 .picture01 {
