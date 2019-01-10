@@ -25,11 +25,11 @@
 </div>
 
  <iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
+src="https://www.youtube.com/watch?v=ZTprZHCwoNc">
 </iframe> 
 <br>
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=VzrpC7jrz8U">
+src="https://www.youtube.com/watch?v=Bbk5RcH0bbQ">
 </iframe> 
 
 </body>
