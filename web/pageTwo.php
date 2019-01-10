@@ -24,9 +24,10 @@
   </div> 
 </div>
 
-<object width="420" height="315"
+<embed width="420" height="315"
 data="https://www.youtube.com/watch?v=enG_XbSDrqg">
-</object>
+</embed>
+
 <br>
 <iframe width="420" height="315"
 src="https://www.youtube.com/watch?v=Bbk5RcH0bbQ">
