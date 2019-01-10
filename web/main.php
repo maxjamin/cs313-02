@@ -9,7 +9,7 @@
 
 <body>
 
-<h1>Test homepage</h1>
+<h1>BikeRiding</h1>
 
 <div class="navbar">
   <a href="main.php">Home</a>
@@ -25,6 +25,8 @@
     </div>
   </div> 
 </div>
+
+<img src="bike01.jpeg" alt="Icon" class="picture01">
 
 
 <?php
