@@ -12,7 +12,7 @@
 <h1>Test homepage</h1>
 
 <div class="navbar">
-  <a href="#home">Home</a>
+  <a href="https://intense-sierra-26320.herokuapp.com/main.php">Home</a>
   <a href="#news">News</a>
   <div class="dropdown">
     <button class="dropbtn">Assignments 
