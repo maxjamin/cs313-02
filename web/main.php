@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link rel = "stylesheet"
+   	type = "text/css"
+   	href = "myStyle.css" />
+</head>
 <body>
 
 <?php
