@@ -33,6 +33,9 @@
 
 <img src="bike02.jpeg" alt="Icon" class="picture01" style="width:600px;height:500px;">
 
+<h3>Please enter you email and submit any questions that you might have</h3>
+
+
 
 </body>
 </html>
