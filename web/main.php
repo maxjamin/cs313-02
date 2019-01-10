@@ -9,6 +9,7 @@
 
 <body>
 
+<h1>Test homepage</h1>
 
 <div class="navbar">
   <a href="#home">Home</a>
