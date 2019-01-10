@@ -45,6 +45,7 @@
 
 
 <div id="googleMaps" style="width:100%;height:400px;"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 </body>
 </html>
