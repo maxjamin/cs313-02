@@ -25,7 +25,7 @@
     </div>
   </div> 
 </div>
-
+<br>
 <img src="bike01.jpeg" alt="Icon" class="picture01">
 
 
