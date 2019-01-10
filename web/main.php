@@ -31,7 +31,7 @@
 
 <p>Hello, and welcome to bikeriders. We have been in business for over 10 years and your one stop place for finding places to get out and ride. Whether your in a city or in the middle of nowhere, we hope that you will use our map to plan your next adventure. If your in the dirt or on the rode you might find some new and exciting places to ride. We also strive to help you fix any bike related problem that you might have. Please check out our Fix it page at the top of our web site. If you have any questions please send us an email and we'll get right back to you.</p> 
 
-<img src="bike02.jpeg" alt="Icon" class="picture01" style="width:600px;height:500px;">
+<img src="bike02.jpeg" alt="Icon" class="picture01" style="width:700px;height:500px;">
 
 <h3>Please enter you email and submit any questions that you might have</h3>
 
