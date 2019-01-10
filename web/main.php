@@ -35,6 +35,17 @@
 
 <h3>Please enter you email and submit any questions that you might have</h3>
 
+<form method="post" action="">
+<p><span class="error">* required field</span></p>
+
+	E-mail: <input type="text" name="email">
+  	<span class="error">* <?php echo $emailErr;?></span>
+  	<br><br>
+  	Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+  	<br><br>
+  	<input type="submit" name="submit" value="Submit">  
+</form>
+
 
 
 </body>
