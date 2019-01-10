@@ -42,6 +42,7 @@
   	<span class="error">* <?php echo $emailErr;?></span>
   	<br><br>
   	Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+  	<span class="error">* <?php echo $commentErr;?></span>
   	<br><br>
   	<input type="submit" name="submit" value="Submit">  
 </form>
