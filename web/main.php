@@ -48,7 +48,12 @@ if (empty($_POST["email"])) {
     }
   }
 
-
+  function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
 
 ?>
 
@@ -66,6 +71,13 @@ if (empty($_POST["email"])) {
   	<input type="submit" name="submit" value="Submit">  
 </form>
 
+<?php
+echo "<h2>Input:</h2>";
+echo $email;
+echo "<br>";
+echo $comment;
+echo "<br>";
+?>
 
 
 </body>
