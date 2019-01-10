@@ -15,6 +15,9 @@ p {
  border: 3px groove #FFFF33;
 }
 
+.picture01 {
+  style="width:128px;height:128px;
+}
 
 .navbar {
   overflow: hidden;
