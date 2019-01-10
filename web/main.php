@@ -34,6 +34,9 @@
 <img src="bike02.jpeg" alt="Icon" class="picture01" style="width:700px;height:500px;">
 
 <?php
+// In order to be transparent Alot of this code has been sampled from:https://www.w3schools.com/php/php_form_validation.asp
+
+
 //Define var
 $emailErr = $commentErr = "";
 $email = $comment = "";
@@ -48,6 +51,13 @@ if (empty($_POST["email"])) {
     }
   }
 
+if (empty($_POST["comment"])) {
+    $comment = "";
+  } else {
+    $comment = test_input($_POST["comment"]);
+  }
+
+//if the input meets the req, the input is assigned to the var
   function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);
