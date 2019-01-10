@@ -33,9 +33,28 @@
 
 <img src="bike02.jpeg" alt="Icon" class="picture01" style="width:700px;height:500px;">
 
+<?php
+//Define var
+$emailErr = $commentErr = "";
+$email = $comment = "";
+
+if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Invalid email format";
+    }
+  }
+
+
+
+?>
+
 <h3>Please enter you email and submit any questions that you might have</h3>
 
-<form method="post" action="">
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <p><span class="error">* required field</span></p>
 
 	E-mail: <input type="text" name="email">
