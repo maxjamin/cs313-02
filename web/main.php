@@ -28,6 +28,9 @@
 <br>
 <img src="bike01.jpeg" alt="Icon" class="picture01">
 
+<p>Hello, and welcome to bikeriders. Your one stop place for finding places to get out and ride. We also strive to help you fix any bike related problem that you might have. If you have any questions please send us an email and we'll get right back to you.</p> 
+
+
 
 <?php
 $x = "Hello world!";
