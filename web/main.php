@@ -4,6 +4,19 @@
 	<link rel = "stylesheet"
    	type = "text/css"
    	href = "myStyle.css" />
+
+   	<script>
+	function myMap() {
+		var mapProp= {center:new google.maps.LatLng(51.508742,-0.120850),
+  			zoom:5,
+		};
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	}
+	</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
 </head>
 
 
@@ -31,12 +44,7 @@
 <p>Hello, and welcome to bikeriders. We have been in business for over 10 years and your one stop place for finding places to get out and ride. Whether your in a city or in the middle of nowhere, we hope that you will use our map to plan your next adventure. If your in the dirt or on the rode you might find some new and exciting places to ride. We also strive to help you fix any bike related problem that you might have. Please check out our Fix it page at the top of our web site. If you have any questions please send us an email and we'll get right back to you.</p> 
 
 
-
-
-<?php
-$x = "Hello world!";
-echo $y;
-?>
+<div id="googleMaps" style="width:100%;height:400px;"></div>
 
 </body>
 </html>
