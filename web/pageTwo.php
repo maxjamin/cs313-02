@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>News</title>
 	<link rel = "stylesheet"
    	type = "text/css"
    	href = "myStyle.css" />
 </head>
-
-
 <body>
 
-<h1>Test homepage</h1>
-
+<h1>Coming Soon!</h1>
 <div class="navbar">
   <a href="https://intense-sierra-26320.herokuapp.com/main.php">Home</a>
   <a href="https://intense-sierra-26320.herokuapp.com/pageTwo.php">News</a>
@@ -26,11 +24,5 @@
   </div> 
 </div>
 
-
-<?php
-$x = "Hello world!";
-echo $y;
-?>
-
 </body>
-</html>
+</html> 
