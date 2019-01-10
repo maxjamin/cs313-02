@@ -35,11 +35,6 @@ p {
   text-decoration: none;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -50,6 +45,12 @@ p {
   font-family: inherit;
   margin: 0;
 }
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
