@@ -14,7 +14,7 @@
   <a href="#home">Home</a>
   <a href="#news">News</a>
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Assignments 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
