@@ -10,8 +10,8 @@
 
 <h1>Fixing your Bike</h1>
 <div class="navbar">
-  <a href="https://intense-sierra-26320.herokuapp.com/main.php">Home</a>
-  <a href="https://intense-sierra-26320.herokuapp.com/pageTwo.php">News</a>
+  <a href="main.php">Home</a>
+  <a href="pageTwo.php">News</a>
   <div class="dropdown">
     <button class="dropbtn">Assignments 
       <i class="fa fa-caret-down"></i>
