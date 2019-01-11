@@ -34,7 +34,7 @@
 <img src="bike02.jpeg" alt="Icon" class="picture01" style="width:700px;height:500px;">
 
 <?php
-// In order to be transparent Alot of this code has been sampled from:https://www.w3schools.com/php/php_form_validation.asp
+// In order to be dtransparent Alot of this code has been sampled from:https://www.w3schools.com/php/php_form_validation.asp
 
 
 //Define var
